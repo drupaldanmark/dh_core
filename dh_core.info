@@ -1,0 +1,76 @@
+; Packaging information for dd_core
+name = Drupalhagen
+distribution_name = "dh_core"
+description = "Drupalhagen base profile"
+version = "7.x-1.x"
+core = "7.x"
+exclusive = 1
+
+base[] = panopoly
+
+files[] = dh_core.install
+files[] = dh_core.profile
+
+; ------------
+; Dependencies
+; ------------
+
+;
+; Core
+;
+
+dependencies[] = dd_settings
+dependencies[] = dd_members
+
+;
+; Contrib
+;
+
+; Admin goodies
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = contextual
+dependencies[] = markdown
+
+; Media and other image stuff
+dependencies[] = breakpoints
+dependencies[] = picture
+
+; User related modules
+dependencies[] = user_picture_default
+
+; General
+dependencies[] = panels_everywhere
+
+;
+; Panopoly Modules
+;
+
+; Panopoly Foundation
+dependencies[] = panopoly_core
+dependencies[] = panopoly_images
+dependencies[] = panopoly_theme
+dependencies[] = panopoly_magic
+dependencies[] = panopoly_widgets
+dependencies[] = panopoly_admin
+dependencies[] = panopoly_users
+
+; Panopoly Toolset
+dependencies[] = panopoly_pages
+dependencies[] = panopoly_search
+dependencies[] = panopoly_wysiwyg
+
+; Panopoly Recommended - Admin & UI
+dependencies[] = backports
+dependencies[] = date_popup_authored
+dependencies[] = module_filter
+dependencies[] = save_draft
+
+; Panopoly Recommended - Other
+dependencies[] = uuid
+
+; For Development purposes (can/should be disabled later)
+dependencies[] = devel
+dependencies[] = field_ui
+dependencies[] = views_ui
+
