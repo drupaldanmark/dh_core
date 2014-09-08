@@ -1,7 +1,9 @@
 modules/contrib
 modules/panopoly
+modules/custom
 modules/development
 themes/contrib
 themes/panopoly
+themes/custom
 themes/responsive_bartik
 libraries

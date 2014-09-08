@@ -8,9 +8,6 @@ exclusive = 1
 
 base[] = panopoly
 
-files[] = dh_core.install
-files[] = dh_core.profile
-
 ; ------------
 ; Dependencies
 ; ------------
@@ -19,28 +16,9 @@ files[] = dh_core.profile
 ; Core
 ;
 
-dependencies[] = dd_settings
-dependencies[] = dd_members
-
-;
-; Contrib
-;
-
-; Admin goodies
-dependencies[] = admin_menu
-dependencies[] = admin_menu_toolbar
-dependencies[] = contextual
-dependencies[] = markdown
-
-; Media and other image stuff
-dependencies[] = breakpoints
-dependencies[] = picture
-
-; User related modules
-dependencies[] = user_picture_default
-
-; General
-dependencies[] = panels_everywhere
+;dependencies[] = campkitlite_core
+;dependencies[] = campkitlite_sessions
+;dependencies[] = campkitlite_sponsors
 
 ;
 ; Panopoly Modules
@@ -74,3 +52,18 @@ dependencies[] = devel
 dependencies[] = field_ui
 dependencies[] = views_ui
 
+;
+; Contrib
+;
+
+; Admin goodies
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = contextual
+dependencies[] = markdown
+
+; Media and other image stuff
+;dependencies[] = breakpoints
+
+; General
+dependencies[] = panels_everywhere
