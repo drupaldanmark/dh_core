@@ -1,12 +1,10 @@
-; Packaging information for dd_core
+; Packaging information for dh_core
 name = Drupalhagen
 distribution_name = "dh_core"
 description = "Drupalhagen base profile"
 version = "7.x-1.x"
 core = "7.x"
 exclusive = 1
-
-base[] = panopoly
 
 ; ------------
 ; Dependencies
@@ -15,28 +13,11 @@ base[] = panopoly
 ;
 ; Core
 ;
-
+;dependencies[] = panelizer
 ;dependencies[] = campkitlite_core
 ;dependencies[] = campkitlite_sessions
 ;dependencies[] = campkitlite_sponsors
 
-;
-; Panopoly Modules
-;
-
-; Panopoly Foundation
-dependencies[] = panopoly_core
-dependencies[] = panopoly_images
-dependencies[] = panopoly_theme
-dependencies[] = panopoly_magic
-dependencies[] = panopoly_widgets
-dependencies[] = panopoly_admin
-dependencies[] = panopoly_users
-
-; Panopoly Toolset
-dependencies[] = panopoly_pages
-dependencies[] = panopoly_search
-dependencies[] = panopoly_wysiwyg
 
 ; Panopoly Recommended - Admin & UI
 dependencies[] = backports
@@ -61,9 +42,6 @@ dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = contextual
 dependencies[] = markdown
-
-; Media and other image stuff
-;dependencies[] = breakpoints
 
 ; General
 dependencies[] = panels_everywhere
