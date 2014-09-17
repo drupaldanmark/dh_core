@@ -1,7 +1,9 @@
 modules/contrib
 modules/panopoly
 modules/custom
+modules/custom/campkitlite_core
 modules/development
+modules/global
 themes/contrib
 themes/panopoly
 themes/custom

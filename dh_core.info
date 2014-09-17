@@ -13,16 +13,34 @@ exclusive = 1
 ;
 ; Core
 ;
+dependencies[] = adapt_core
+dependencies[] = entity_dependency
+dependencies[] = entity_token
+dependencies[] = entity_view_mode
+dependencies[] = field_group
+dependencies[] = field_wrappers
+dependencies[] = jquery_update
+dependencies[] = linkit
+dependencies[] = menu_block
+dependencies[] = page_manager
+dependencies[] = pm_existing_pages
+dependencies[] = smart_trim
+dependencies[] = uuid
+dependencies[] = views_content
+dependencies[] = menu_block
+dependencies[] = variable
+dependencies[] = syslog
 ;dependencies[] = panelizer
-;dependencies[] = campkitlite_core
-;dependencies[] = campkitlite_sessions
-;dependencies[] = campkitlite_sponsors
+
+
+dependencies[] = campkitlite_core
+dependencies[] = campkitlite_sessions
+dependencies[] = campkitlite_sponsors
 
 
 ; Panopoly Recommended - Admin & UI
 dependencies[] = backports
 dependencies[] = date_popup_authored
-dependencies[] = module_filter
 dependencies[] = save_draft
 
 ; Panopoly Recommended - Other

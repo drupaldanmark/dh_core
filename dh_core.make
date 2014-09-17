@@ -35,11 +35,13 @@ projects[campkitlite_core][download][branch] = master
 ; https://www.drupal.org/project/mothership
 projects[mothership][type] = theme
 projects[mothership][version] = 2.10
+projects[mothership][subdir] = contrib
 
 projects[hagen2013][type] = theme
 projects[hagen2013][download][type] = git
 projects[hagen2013][download][url] = git@github.com:drupaldanmark/hagen2013.git
 projects[hagen2013][download][branch] = master
+projects[hagen2013][subdir] = custom
 
 ; UI stuff
 projects[backports][version] = 1.0-alpha1
