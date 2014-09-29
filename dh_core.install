@@ -10,5 +10,15 @@
 function dh_core_install() {
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', 1);
+
+  theme_enable(array('hagen2014'));
+  variable_set('theme_default', 'hagen2014');
 }
 
+/**
+ * Install hagen2013 as theme and set is as default.
+ */
+function dh_core_update_7001() {
+  theme_enable(array('hagen2014'));
+  variable_set('theme_default', 'hagen2014');
+}

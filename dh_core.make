@@ -43,12 +43,20 @@ projects[hagen2013][download][url] = git@github.com:drupaldanmark/hagen2013.git
 projects[hagen2013][download][branch] = master
 projects[hagen2013][subdir] = custom
 
+projects[hagen2014][type] = theme
+projects[hagen2014][download][type] = git
+projects[hagen2014][download][url] = git@github.com:drupaldanmark/hagen2014.git
+projects[hagen2014][download][branch] = master
+projects[hagen2014][subdir] = custom
+
 ; UI stuff
 projects[backports][version] = 1.0-alpha1
 projects[backports][subdir] = contrib
 
 projects[date_popup_authored][version] = 1.1
 projects[date_popup_authored][subdir] = contrib
+projects[date][version] = 2.8
+projects[date][subdir] = contrib
 
 projects[save_draft][version] = 1.4
 projects[save_draft][subdir] = contrib

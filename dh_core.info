@@ -30,6 +30,7 @@ dependencies[] = views_content
 dependencies[] = menu_block
 dependencies[] = variable
 dependencies[] = syslog
+dependencies[] = fieldable_panels_panes
 ;dependencies[] = panelizer
 
 
